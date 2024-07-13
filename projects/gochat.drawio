@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-07-13T15:20:35.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.5" etag="u28TcoVcKfYH7JhOUcwz" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-13T15:29:20.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="F7RXr4xGqE8Q1fQ8Hy1D" version="24.6.5" type="github">
   <diagram name="第 1 页" id="FHyuBjmGsjwkI8LWKp0l">
-    <mxGraphModel>
+    <mxGraphModel dx="977" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3Oohh5LN5OZtpXJToCra-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="153" y="276" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-4" value="网关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="276" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-5" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="109" width="181" height="357" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-6" value="用户api服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="623" y="162" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-8" value="im-api服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="623" y="276" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-9" value="社交api服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="623" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-10" value="websocket服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="563" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-11" value="BFF层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="656" y="116" width="53" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-12" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="887" y="109" width="176.5" height="357" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-13" value="用户rpc服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915.25" y="162" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-14" value="im-rpc服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915.25" y="276" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-15" value="社交rpc服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915.25" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Oohh5LN5OZtpXJToCra-16" value="消息队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915.25" y="563" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
