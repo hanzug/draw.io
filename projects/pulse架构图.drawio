@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="pnYERcN3gMjSIuE6DzLB">
-    <mxGraphModel dx="984" dy="1761" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="1473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -145,13 +145,13 @@
         <mxCell id="a1szCFsNDwzxV1m5Zwac-45" value="Raft 集群" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="457" y="-466" width="600" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="a1szCFsNDwzxV1m5Zwac-46" value="Leader Server&#xa;&#xa;• 调度器 (scheduler.go)&#xa;• HTTP API (api.go)&#xa;• 存储层 (store.go/BoltDB)&#xa;• FSM (fsm.go)&#xa;• 执行器 (agent.go) [*]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="a1szCFsNDwzxV1m5Zwac-46" value="Leader Server&lt;br&gt;&lt;br&gt;• 调度器&lt;br&gt;• HTTP API&lt;br&gt;• 存储层&lt;br&gt;• FSM&lt;br&gt;• 执行器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=5;" vertex="1" parent="1">
           <mxGeometry x="477" y="-436" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="a1szCFsNDwzxV1m5Zwac-47" value="Follower Servers&#xa;&#xa;• 复制状态&#xa;• 参与选举&#xa;• 执行器 [*]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="a1szCFsNDwzxV1m5Zwac-47" value="Follower Servers&lt;br&gt;&lt;br&gt;• 复制状态&lt;br&gt;• 参与选举&lt;br&gt;• 执行器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=5;" vertex="1" parent="1">
           <mxGeometry x="857" y="-436" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="a1szCFsNDwzxV1m5Zwac-48" value="专用 Agent 节点&#xa;&#xa;• 执行器插件 (shell/http)&#xa;• 任务执行管理&#xa;• 事件报告&#xa;&#xa;[通常执行计算密集型任务]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="a1szCFsNDwzxV1m5Zwac-48" value="专用 Agent 节点&lt;br&gt;&lt;br&gt;• 执行器&lt;br&gt;• 任务执行管理&lt;br&gt;• 事件报告" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=5;" vertex="1" parent="1">
           <mxGeometry x="927" y="-226" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="a1szCFsNDwzxV1m5Zwac-49" value="HTTP API&#xa;(任务管理)" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1szCFsNDwzxV1m5Zwac-42" target="a1szCFsNDwzxV1m5Zwac-46">
