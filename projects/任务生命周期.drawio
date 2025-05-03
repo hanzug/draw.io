@@ -92,7 +92,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e6zgIH32xvxdO4nqBeIh-101" value="Pulse系统任务生命周期流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="260" y="20" width="280" height="30" as="geometry" />
+          <mxGeometry x="260" y="5" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
