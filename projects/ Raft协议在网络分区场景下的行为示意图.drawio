@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="Raft协议在网络分区场景下的行为" id="9_cvzTFHPjwt-u4N8Jex">
-    <mxGraphModel dx="1140" dy="680" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1384" dy="826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JRd8exp3etI0ZSEt-EbP-19" value="多数派状态：&#xa;• 能选出新Leader&#xa;• 能够提交新日志&#xa;• 为客户端提供读写服务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=5;" vertex="1" parent="1">
-          <mxGeometry x="110" y="530" width="210" height="80" as="geometry" />
+          <mxGeometry x="110" y="541" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JRd8exp3etI0ZSEt-EbP-20" value="少数派状态：&#xa;• 无法选出新Leader&#xa;• 无法提交新日志&#xa;• 最多提供只读服务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=5;" vertex="1" parent="1">
           <mxGeometry x="500" y="550" width="210" height="80" as="geometry" />
