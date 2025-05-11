@@ -1,9 +1,100 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
-  <diagram name="第 1 页" id="cqi7hVsjm5H9vaPpNQfj">
-    <mxGraphModel>
+  <diagram name="Gossip协议信息传播示意图" id="cqi7hVsjm5H9vaPpNQfj">
+    <mxGraphModel dx="1140" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-1" value="Gossip协议信息传播过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-2" value="第1轮: 初始状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-3" value="节点A&#xa;(有信息)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-4" value="节点B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-5" value="节点C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-6" value="节点D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-7" value="第2轮: 部分传播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-8" value="节点A&#xa;(有信息)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-9" value="节点B&#xa;(有信息)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-10" value="节点C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-11" value="节点D&#xa;(有信息)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-12" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;dashed=1;" edge="1" parent="1" source="J8Sj5U5eVAyo-yMniLHg-8" target="J8Sj5U5eVAyo-yMniLHg-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="190" as="sourcePoint" />
+            <mxPoint x="450" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-13" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;dashed=1;" edge="1" parent="1" source="J8Sj5U5eVAyo-yMniLHg-8" target="J8Sj5U5eVAyo-yMniLHg-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="190" as="sourcePoint" />
+            <mxPoint x="450" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-14" value="第N轮: 完全传播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-15" value="节点A&#xa;(有信息)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="720" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-16" value="节点B&#xa;(有信息)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-17" value="节点C&#xa;(有信息)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-18" value="节点D&#xa;(有信息)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-19" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;dashed=1;" edge="1" parent="1" source="J8Sj5U5eVAyo-yMniLHg-16" target="J8Sj5U5eVAyo-yMniLHg-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="190" as="sourcePoint" />
+            <mxPoint x="730" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-20" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;dashed=1;" edge="1" parent="1" source="J8Sj5U5eVAyo-yMniLHg-18" target="J8Sj5U5eVAyo-yMniLHg-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="190" as="sourcePoint" />
+            <mxPoint x="730" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-21" value="图例:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-22" value="有信息节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-23" value="无信息节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-24" value="信息传播" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.5" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="440" as="sourcePoint" />
+            <mxPoint x="380" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Sj5U5eVAyo-yMniLHg-25" value="Gossip协议特点:&#xa;1. 节点随机选择少数邻居进行通信&#xa;2. 感染式传播:获得信息的节点继续传播给其他节点&#xa;3. 无需中心节点,去中心化设计&#xa;4. 随时间推移,信息最终传播到整个网络&#xa;5. 容错性强,单个节点故障不影响整体传播" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="390" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
