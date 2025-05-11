@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="J8Sj5U5eVAyo-yMniLHg-1" value="Gossip协议信息传播过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="270" y="40" width="310" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="J8Sj5U5eVAyo-yMniLHg-2" value="第1轮: 初始状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="120" y="90" width="150" height="20" as="geometry" />
         </mxCell>
