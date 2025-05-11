@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="Pulse系统核心子系统交互时序图" id="0ivZdTxlm7wncbjiYPYh">
-    <mxGraphModel dx="554" dy="330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="680" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -268,9 +268,6 @@
             <mxPoint x="250" y="650" as="sourcePoint" />
             <mxPoint x="850" y="650" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="lBqv2uYbiSY0HA5kkU_S-46" value="图 3-4: Pulse系统核心子系统交互时序图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="200" y="30" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lBqv2uYbiSY0HA5kkU_S-47" value="任务从创建到执行完成的完整流程中各子系统的交互过程" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="620" y="30" width="240" height="35" as="geometry" />
