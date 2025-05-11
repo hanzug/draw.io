@@ -1,9 +1,146 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
-  <diagram name="第 1 页" id="0ivZdTxlm7wncbjiYPYh">
-    <mxGraphModel>
+  <diagram name="Pulse系统核心子系统交互时序图" id="0ivZdTxlm7wncbjiYPYh">
+    <mxGraphModel dx="1140" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-1" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-2" value="Raft Leader&#xa;(Server节点)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-3" value="Raft Followers&#xa;(Server节点)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-4" value="调度子系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-5" value="Agent节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-6" value="事件聚合器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="800" y="80" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-7" value="1. 创建任务请求(HTTP API)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="lBqv2uYbiSY0HA5kkU_S-1" target="lBqv2uYbiSY0HA5kkU_S-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="160" as="sourcePoint" />
+            <mxPoint x="250" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-8" value="2. 提交Raft日志(AppendEntries RPC)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="190" as="sourcePoint" />
+            <mxPoint x="400" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-9" value="3. 确认日志" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-10" value="4. 应用日志到FSM&#xa;(创建任务)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.125" y="10" relative="1" as="geometry">
+            <mxPoint x="250" y="250" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="280" y="250" />
+              <mxPoint x="280" y="280" />
+            </Array>
+            <mxPoint x="250" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-11" value="5. 返回创建成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="310" as="sourcePoint" />
+            <mxPoint x="100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-12" value="6. 添加任务到调度队列" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="340" as="sourcePoint" />
+            <mxPoint x="550" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-13" value="7. 根据Cron表达式&#xa;触发任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.125" y="10" relative="1" as="geometry">
+            <mxPoint x="550" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="580" y="370" />
+              <mxPoint x="580" y="400" />
+            </Array>
+            <mxPoint x="550" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-14" value="8. 通知任务触发" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="430" as="sourcePoint" />
+            <mxPoint x="250" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-15" value="9. 根据任务标签&#xa;选择合适的Agent" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.125" y="10" relative="1" as="geometry">
+            <mxPoint x="250" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="280" y="450" />
+              <mxPoint x="280" y="480" />
+            </Array>
+            <mxPoint x="250" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-16" value="10. 分发任务(gRPC)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="500" as="sourcePoint" />
+            <mxPoint x="700" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-17" value="11. 执行任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.125" y="10" relative="1" as="geometry">
+            <mxPoint x="700" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="730" y="520" />
+              <mxPoint x="730" y="550" />
+            </Array>
+            <mxPoint x="700" y="550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-18" value="12. 返回执行结果(gRPC)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="570" as="sourcePoint" />
+            <mxPoint x="250" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-19" value="13. 提交执行结果(Raft日志)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="600" as="sourcePoint" />
+            <mxPoint x="400" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-20" value="14. 上报事件(gRPC)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="630" as="sourcePoint" />
+            <mxPoint x="850" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-21" value="14. 上报事件(gRPC)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="650" as="sourcePoint" />
+            <mxPoint x="850" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-22" value="图 3-4: Pulse系统核心子系统交互时序图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lBqv2uYbiSY0HA5kkU_S-23" value="任务从创建到执行完成的完整流程中各子系统的交互过程" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="620" y="30" width="240" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
