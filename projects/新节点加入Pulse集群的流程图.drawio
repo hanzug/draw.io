@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kEvk5q5v2CjOmL9xkY69-1" value="新节点加入Pulse集群的流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="480" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="kEvk5q5v2CjOmL9xkY69-2" value="新节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="120" y="110" width="160" height="40" as="geometry" />
         </mxCell>
