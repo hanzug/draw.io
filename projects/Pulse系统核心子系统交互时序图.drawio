@@ -135,9 +135,6 @@
             <mxPoint x="850" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lBqv2uYbiSY0HA5kkU_S-22" value="图 3-4: Pulse系统核心子系统交互时序图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="200" y="30" width="400" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="lBqv2uYbiSY0HA5kkU_S-23" value="任务从创建到执行完成的完整流程中各子系统的交互过程" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="620" y="30" width="240" height="35" as="geometry" />
         </mxCell>
