@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
-  <diagram name="第 1 页" id="N5chCAsvylH4t5Y-QzBD">
-    <mxGraphModel>
+  <diagram name="Raft-FSM Interaction" id="N5chCAsvylH4t5Y-QzBD">
+    <mxGraphModel dx="967" dy="613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-30" value="Raft核心模块&#xa;(internal/raft/)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;verticalAlign=top;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-31" value="Leader节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="153" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-32" value="Follower节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="314" y="217" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-33" value="日志复制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="314" y="165" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-34" value="提交控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="505" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-35" value="持久化存储&#xa;(internal/raft-boltdb/)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="439" width="166" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-36" value="有限状态机 (FSM)&#xa;(pulse/fsm.go)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;verticalAlign=top;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-37" value="Apply(cmd []byte) error" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="173" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-38" value="Snapshot() ([]byte, error)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-39" value="Restore(snapshot []byte) error" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="336" y="340" width="138" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-40" value="业务状态&#xa;(pulse/store.go)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="439" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-41" value="1. 日志提交" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1" edge="1" parent="1" source="IRfm3mvbcaonxVmUtXqZ-31" target="IRfm3mvbcaonxVmUtXqZ-37">
+          <mxGeometry x="-0.1667" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-42" value="2. 触发快照" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1" edge="1" parent="1" source="IRfm3mvbcaonxVmUtXqZ-34" target="IRfm3mvbcaonxVmUtXqZ-38">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-43" value="5. 恢复状态" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1" edge="1" parent="1" source="IRfm3mvbcaonxVmUtXqZ-40" target="IRfm3mvbcaonxVmUtXqZ-39">
+          <mxGeometry x="-0.1429" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-44" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="1" source="IRfm3mvbcaonxVmUtXqZ-31" target="IRfm3mvbcaonxVmUtXqZ-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="1" source="IRfm3mvbcaonxVmUtXqZ-33" target="IRfm3mvbcaonxVmUtXqZ-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-46" value="3. 应用命令到业务状态" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1" edge="1" parent="1" source="IRfm3mvbcaonxVmUtXqZ-37" target="IRfm3mvbcaonxVmUtXqZ-40">
+          <mxGeometry x="-0.2857" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-47" value="4. 持久化快照" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1" edge="1" parent="1" source="IRfm3mvbcaonxVmUtXqZ-38" target="IRfm3mvbcaonxVmUtXqZ-35">
+          <mxGeometry x="-0.3333" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-48" value="6. 读取快照" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=1" edge="1" parent="1" source="IRfm3mvbcaonxVmUtXqZ-35" target="IRfm3mvbcaonxVmUtXqZ-40">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRfm3mvbcaonxVmUtXqZ-49" value="交互流程:&#xa;1. Raft在日志被提交后调用FSM的Apply方法应用命令&#xa;2. 当日志增长到阈值时，Raft触发FSM的Snapshot方法创建快照&#xa;3. FSM将命令应用到业务状态中(例如store.go中的数据)&#xa;4. 快照数据被持久化到存储中(BoltDB)&#xa;5. 节点重启或状态落后时，通过Restore方法从快照恢复状态&#xa;6. 从持久化存储读取快照数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;align=left;spacingLeft=10;shadow=1;glass=0;spacing=5;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="676" y="208" width="298" height="186" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
