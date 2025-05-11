@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="Raft协议在网络分区场景下的行为" id="9_cvzTFHPjwt-u4N8Jex">
-    <mxGraphModel dx="969" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,9 +68,6 @@
         </mxCell>
         <mxCell id="JRd8exp3etI0ZSEt-EbP-22" value="网络恢复后，少数派节点将与多数派Leader同步状态，&#xa;少数派中原Leader降级为Follower并接受新Leader的日志复制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
           <mxGeometry x="150" y="670" width="500" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JRd8exp3etI0ZSEt-EbP-24" value="分区发生时可能出现脑裂风险，但Raft协议通过多数派确认机制确保安全性" style="shape=note;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="150" y="750" width="500" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
