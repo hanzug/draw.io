@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="Observability Architecture" id="6DLIA3g4k_VJgWlVC2TL">
-    <mxGraphModel dx="677" dy="429" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="75" dy="48" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,9 +12,6 @@
         </mxCell>
         <mxCell id="U4MRM5uoJ8ETrOe1Ctdm-4" value="Agent 节点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="273" y="150" width="140" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="U4MRM5uoJ8ETrOe1Ctdm-5" value="Event Reporter&#xa;(internal/eventreporter)" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" parent="U4MRM5uoJ8ETrOe1Ctdm-4" vertex="1">
-          <mxGeometry x="45" y="65" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="U4MRM5uoJ8ETrOe1Ctdm-6" value="gRPC Client&#xa;(grpc_client.go)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=11;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="180" y="300" width="160" height="50" as="geometry" />
@@ -29,14 +26,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="280" />
-              <mxPoint x="260" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U4MRM5uoJ8ETrOe1Ctdm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=10;" parent="1" source="U4MRM5uoJ8ETrOe1Ctdm-5" target="U4MRM5uoJ8ETrOe1Ctdm-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="280" />
               <mxPoint x="260" y="280" />
             </Array>
           </mxGeometry>
@@ -57,8 +46,20 @@
             <mxPoint x="830" y="255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U4MRM5uoJ8ETrOe1Ctdm-3" value="Event Reporter&#xa;(internal/eventreporter)" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="155" y="215" width="50" height="50" as="geometry" />
+        <mxCell id="U4MRM5uoJ8ETrOe1Ctdm-3" value="Event Reporter" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="152.25" y="209" width="55.5" height="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qCjNLnQCHByZ_2LC-_I--1" value="Event Reporter" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="315.25" y="203" width="55.5" height="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qCjNLnQCHByZ_2LC-_I--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qCjNLnQCHByZ_2LC-_I--1" target="U4MRM5uoJ8ETrOe1Ctdm-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="343" y="280" />
+              <mxPoint x="260" y="280" />
+            </Array>
+            <mxPoint x="340" y="264.8193472919818" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
