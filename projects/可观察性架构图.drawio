@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="Observability Architecture" id="6DLIA3g4k_VJgWlVC2TL">
-    <mxGraphModel dx="75" dy="48" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="322" dy="204" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
           <mxGeometry x="152.25" y="209" width="55.5" height="55.5" as="geometry" />
         </mxCell>
         <mxCell id="qCjNLnQCHByZ_2LC-_I--1" value="Event Reporter" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="315.25" y="203" width="55.5" height="55.5" as="geometry" />
+          <mxGeometry x="315.25" y="209" width="55.5" height="55.5" as="geometry" />
         </mxCell>
         <mxCell id="qCjNLnQCHByZ_2LC-_I--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qCjNLnQCHByZ_2LC-_I--1" target="U4MRM5uoJ8ETrOe1Ctdm-6">
           <mxGeometry relative="1" as="geometry">
