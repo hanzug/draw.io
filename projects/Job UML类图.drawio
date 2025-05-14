@@ -8,7 +8,7 @@
           <mxGeometry x="180" y="-55" width="400" height="530" as="geometry" />
         </mxCell>
         <mxCell id="qMycwdMJjsRmzumRevs1-35" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;任务依赖关系&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ ParentJob: string&lt;br&gt;+ DependentJobs: []string&lt;br&gt;+ ChildJobs: []*Job&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="640" y="-10" width="200" height="100" as="geometry" />
+          <mxGeometry x="640" y="-7" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qMycwdMJjsRmzumRevs1-36" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;执行历史&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SuccessCount: int&lt;br&gt;+ ErrorCount: int&lt;br&gt;+ LastSuccess: NullableTime&lt;br&gt;+ LastError: NullableTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="640" y="160" width="200" height="100" as="geometry" />
