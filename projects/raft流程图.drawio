@@ -95,7 +95,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-124" value="&lt;ul&gt;&lt;li&gt;每个任期最多只有一个Leader&lt;/li&gt;&lt;li&gt;节点在一个任期内只能投票给一个候选人&lt;/li&gt;&lt;li&gt;日志至少与投票者一样新的候选人才能获得投票&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-124" value="&lt;ul&gt;&lt;li&gt;每个任期最多只有一个领导者&lt;/li&gt;&lt;li&gt;节点在一个任期内只能投票给一个候选人&lt;/li&gt;&lt;li&gt;日志至少与投票者一样新的候选人才能获得投票&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="108" y="2614" width="800" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wd-uXgH5f4dMM6CjHKqw-125" value="&lt;b&gt;关键安全性规则:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
