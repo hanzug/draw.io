@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="Raft Leader选举状态机流程图" id="LkDxuzX8ql3CEM-Iv__S">
-    <mxGraphModel dx="903" dy="-1428" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1128" dy="-1285" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,10 +96,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Wd-uXgH5f4dMM6CjHKqw-124" value="&lt;ul&gt;&lt;li&gt;每个任期最多只有一个领导者&lt;/li&gt;&lt;li&gt;节点在一个任期内只能投票给一个候选人&lt;/li&gt;&lt;li&gt;日志至少与投票者一样新的候选人才能获得投票&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="108" y="2614" width="800" height="60" as="geometry" />
+          <mxGeometry x="108" y="2578" width="800" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wd-uXgH5f4dMM6CjHKqw-125" value="&lt;b&gt;关键安全性规则:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="108" y="2584" width="200" height="30" as="geometry" />
+          <mxGeometry x="108" y="2554" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Wd-uXgH5f4dMM6CjHKqw-126" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=15;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-107" target="Wd-uXgH5f4dMM6CjHKqw-107" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
