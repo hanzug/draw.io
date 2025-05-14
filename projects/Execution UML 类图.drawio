@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="Execution数据结构" id="JNBOJbX7-IPzlRhxeIQb">
-    <mxGraphModel dx="1904" dy="1353" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1631" dy="1180" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,12 +8,13 @@
           <mxGeometry x="200" y="-35" width="360" height="465" as="geometry" />
         </mxCell>
         <mxCell id="9oxhp9jp_5ilO0bYH4hu-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;proto.Execution&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ job_name: string&lt;br&gt;+ success: bool&lt;br&gt;+ output: bytes&lt;br&gt;+ node_name: string&lt;br&gt;+ group: int64&lt;br&gt;+ attempt: uint32&lt;br&gt;+ started_at: google.protobuf.Timestamp&lt;br&gt;+ finished_at: google.protobuf.Timestamp&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="630" y="70" width="263" height="250" as="geometry" />
+          <mxGeometry x="605" y="72.5" width="263" height="250" as="geometry" />
         </mxCell>
         <mxCell id="9oxhp9jp_5ilO0bYH4hu-5" value="转换" style="endArrow=open;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeWidth=1;" parent="1" source="9oxhp9jp_5ilO0bYH4hu-2" target="9oxhp9jp_5ilO0bYH4hu-4" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
+          <mxGeometry x="-0.4138" width="160" relative="1" as="geometry">
             <mxPoint x="380" y="350" as="sourcePoint" />
             <mxPoint x="540" y="350" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9oxhp9jp_5ilO0bYH4hu-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Key()方法&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;生成格式为 &quot;{StartedAt纳秒时间戳}-{NodeName}&quot; 的&lt;br&gt;唯一标识符，用于在存储中检索执行记录&lt;/p&gt;" style="shape=note;size=15;align=left;spacingLeft=5;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
