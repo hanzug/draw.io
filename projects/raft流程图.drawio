@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram name="Raft Leader选举状态机流程图" id="LkDxuzX8ql3CEM-Iv__S">
-    <mxGraphModel dx="542" dy="-1657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="903" dy="-1428" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,7 +90,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-119" value="收到Leader心跳&#xa;(重置选举超时)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-118" vertex="1" connectable="0">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-119" value="收到领导者心跳&lt;br&gt;(重置选举超时)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-118" vertex="1" connectable="0">
           <mxGeometry x="0.0286" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
