@@ -62,9 +62,10 @@
             <mxPoint x="671" y="1439" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulAN-NUVDgdVOlcWsPgG-93" value="心跳消息 (AppendEntries RPC)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=13;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-80" target="ulAN-NUVDgdVOlcWsPgG-87">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-93" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=13;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-80" target="ulAN-NUVDgdVOlcWsPgG-87">
+          <mxGeometry x="0.7355" relative="1" as="geometry">
             <mxPoint x="831" y="1363" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ulAN-NUVDgdVOlcWsPgG-94" value="确认响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.3;rounded=0;fontSize=13;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-87" target="ulAN-NUVDgdVOlcWsPgG-80">
