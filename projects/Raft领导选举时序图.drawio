@@ -1,9 +1,123 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
-  <diagram name="第 1 页" id="7PPP4ZcbkBobqEiEJsov">
-    <mxGraphModel>
+  <diagram name="Page-1" id="7PPP4ZcbkBobqEiEJsov">
+    <mxGraphModel dx="715" dy="280" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cQViEmoI6t9RxzjoyboB-25" value="节点A&#xa;(追随者→候选人→领导者)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="727" y="475" width="160" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-26" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="cQViEmoI6t9RxzjoyboB-25">
+          <mxGeometry x="75" y="70" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-34" value="4. RequestVote RPC" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fontSize=16;" edge="1" parent="cQViEmoI6t9RxzjoyboB-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="179" as="sourcePoint" />
+            <mxPoint x="285" y="179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-35" value="4. RequestVote RPC" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fontSize=16;" edge="1" parent="cQViEmoI6t9RxzjoyboB-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="201" as="sourcePoint" />
+            <mxPoint x="485" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-27" value="节点B&#xa;(追随者)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="947" y="475" width="140" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-28" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="cQViEmoI6t9RxzjoyboB-27">
+          <mxGeometry x="65" y="70" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-29" value="节点C&#xa;(追随者)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1147" y="475" width="140" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="cQViEmoI6t9RxzjoyboB-29">
+          <mxGeometry x="65" y="70" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-31" value="1. 选举计时器超时" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="827" y="751" as="sourcePoint" />
+            <mxPoint x="922" y="751" as="targetPoint" />
+            <mxPoint x="727" y="571" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-33" value="3. 给自己投票" style="verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=0;startArrow=classic;startFill=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry x="-0.1" y="-47" relative="1" as="geometry">
+            <mxPoint x="802" y="635" as="sourcePoint" />
+            <mxPoint x="812" y="635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="757" y="635" />
+            </Array>
+            <mxPoint x="-47" y="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-36" value="5. 检查任期号和日志状态" style="verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;endFill=0;startArrow=classic;startFill=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1022" y="705" as="sourcePoint" />
+            <mxPoint x="1022" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="977" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-37" value="5. 检查任期号和日志状态" style="verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;endFill=0;startArrow=classic;startFill=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1222" y="705" as="sourcePoint" />
+            <mxPoint x="1222" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1177" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-38" value="6. 投票响应 (同意)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1012" y="735" as="sourcePoint" />
+            <mxPoint x="812" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-39" value="6. 投票响应 (同意)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1212" y="765" as="sourcePoint" />
+            <mxPoint x="812" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-40" value="7. 收到多数票成为领导者" style="verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;shadow=0;strokeWidth=1;endFill=0;startArrow=classic;startFill=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry y="9" relative="1" as="geometry">
+            <mxPoint x="812" y="795" as="sourcePoint" />
+            <mxPoint x="812" y="795" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="757" y="795" />
+            </Array>
+            <mxPoint x="-4" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-41" value="8. AppendEntries RPC (心跳)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="812" y="835" as="sourcePoint" />
+            <mxPoint x="1012" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-42" value="8. AppendEntries RPC (心跳)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="812" y="865" as="sourcePoint" />
+            <mxPoint x="1212" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-43" value="9. 心跳响应" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1012" y="895" as="sourcePoint" />
+            <mxPoint x="812" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-44" value="9. 心跳响应" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1212" y="925" as="sourcePoint" />
+            <mxPoint x="812" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQViEmoI6t9RxzjoyboB-46" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;2. 增加任期号并转为候选人&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="661" y="581" width="133" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
