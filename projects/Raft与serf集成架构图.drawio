@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="eZDlI3yYEI7RTag95_xD">
-    <mxGraphModel dx="486" dy="385" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-293" dy="-91" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="aUhSs1tsLXUovGEMrSzu-329" value="Raft模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" vertex="1" parent="aUhSs1tsLXUovGEMrSzu-328">
           <mxGeometry x="48.92281167108753" y="169.99693251533742" width="112.14854111405836" height="50.24539877300614" as="geometry" />
         </mxCell>
-        <mxCell id="aUhSs1tsLXUovGEMrSzu-337" value="2. 如果是服务器节点&lt;div&gt;通知Raft模块&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#4A86E8;strokeWidth=1.5;fontSize=18;" edge="1" parent="aUhSs1tsLXUovGEMrSzu-328" source="aUhSs1tsLXUovGEMrSzu-330" target="aUhSs1tsLXUovGEMrSzu-329">
+        <mxCell id="aUhSs1tsLXUovGEMrSzu-337" value="2. 如果是服务器节点&lt;div&gt;通知Raft模块&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontSize=18;" edge="1" parent="aUhSs1tsLXUovGEMrSzu-328" source="aUhSs1tsLXUovGEMrSzu-330" target="aUhSs1tsLXUovGEMrSzu-329">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aUhSs1tsLXUovGEMrSzu-331" value="Raft集群 (Peers)&lt;div&gt;以及其维护的信息&lt;/div&gt;" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;dashed=1;" vertex="1" parent="1">
@@ -28,7 +28,7 @@
         <mxCell id="aUhSs1tsLXUovGEMrSzu-335" value="节点加入/离开Serf集群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1004" y="616" width="200" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="aUhSs1tsLXUovGEMrSzu-336" value="1. Serf集群同步成员变化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#d79b00;strokeWidth=1.5;fontSize=18;" edge="1" parent="1" source="aUhSs1tsLXUovGEMrSzu-332" target="aUhSs1tsLXUovGEMrSzu-330">
+        <mxCell id="aUhSs1tsLXUovGEMrSzu-336" value="1. Serf集群同步成员变化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontSize=18;" edge="1" parent="1" source="aUhSs1tsLXUovGEMrSzu-332" target="aUhSs1tsLXUovGEMrSzu-330">
           <mxGeometry x="-0.0017" y="-19" relative="1" as="geometry">
             <mxPoint x="1117" y="714" as="sourcePoint" />
             <mxPoint x="1277" y="714" as="targetPoint" />
@@ -44,7 +44,7 @@
         <mxCell id="aUhSs1tsLXUovGEMrSzu-342" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Raft Leader节点&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1312.5" y="608" width="147" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="aUhSs1tsLXUovGEMrSzu-338" value="3. Leader发起Raft成员变更" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#FF0000;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="aUhSs1tsLXUovGEMrSzu-329" target="aUhSs1tsLXUovGEMrSzu-331">
+        <mxCell id="aUhSs1tsLXUovGEMrSzu-338" value="3. Leader发起Raft成员变更" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" edge="1" parent="1" source="aUhSs1tsLXUovGEMrSzu-329" target="aUhSs1tsLXUovGEMrSzu-331">
           <mxGeometry x="0.2576" y="22" relative="1" as="geometry">
             <mxPoint x="1497.62" y="1031" as="sourcePoint" />
             <mxPoint x="1142.0000000000002" y="1019" as="targetPoint" />
