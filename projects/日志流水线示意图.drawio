@@ -7,7 +7,7 @@
         <mxCell id="tI9Yq3BKOj91rwqoLNJe-35" value="传统方式" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="825" y="571" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tI9Yq3BKOj91rwqoLNJe-36" value="领导者(Leader)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-36" value="领导者(Leader)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="729" y="601" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tI9Yq3BKOj91rwqoLNJe-37" value="追随者(Follower)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=15;" vertex="1" parent="1">
@@ -58,7 +58,7 @@
         <mxCell id="tI9Yq3BKOj91rwqoLNJe-46" value="流水线方式" style="text;html=1;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="839" y="861" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tI9Yq3BKOj91rwqoLNJe-47" value="领导者(Leader)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-47" value="领导者(Leader)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="729" y="891" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tI9Yq3BKOj91rwqoLNJe-48" value="追随者(Follower)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=15;" vertex="1" parent="1">
@@ -121,13 +121,13 @@
         <mxCell id="tI9Yq3BKOj91rwqoLNJe-58" value="按顺序处理请求" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1304" y="971" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tI9Yq3BKOj91rwqoLNJe-59" value="批次1&#xa;[日志1, 日志2, 日志3]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-59" value="批次1&#xa;[日志1, 日志2, 日志3]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="863" y="914" width="152" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="tI9Yq3BKOj91rwqoLNJe-60" value="批次2&#xa;[日志4, 日志5, 日志6]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-60" value="批次2&#xa;[日志4, 日志5, 日志6]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="863" y="949" width="151" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tI9Yq3BKOj91rwqoLNJe-61" value="批次3&#xa;[日志7, 日志8, 日志9]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-61" value="批次3&#xa;[日志7, 日志8, 日志9]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="862" y="985" width="154.5" height="29" as="geometry" />
         </mxCell>
       </root>
