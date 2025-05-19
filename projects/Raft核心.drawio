@@ -46,9 +46,6 @@
         <mxCell id="DqiwzHsYjAXq-R04fSNt-12" value="������️" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="765" y="240" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DqiwzHsYjAXq-R04fSNt-20" value="领导者将操作日志复制到&lt;br&gt;多数派节点，以达成状态一致。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="745" y="795" width="170" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
