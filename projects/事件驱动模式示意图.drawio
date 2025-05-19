@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
-  <diagram name="第 1 页" id="Wte6M-qhrk3Ujj63Xja0">
-    <mxGraphModel>
+  <diagram name="事件驱动架构" id="Wte6M-qhrk3Ujj63Xja0">
+    <mxGraphModel dx="1194" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-1" value="服务器节点 (Server)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-2" value="代理节点 (Agent)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="460" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-3" value="事件报告器&lt;br&gt;(EventReporter)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-4" value="事件报告器&lt;br&gt;(EventReporter)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-5" value="事件聚合器&lt;br&gt;(Aggregator)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="780" y="350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-6" value="前端用户界面&lt;br&gt;(WebUI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1030" y="350" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="VFUHbm7c49YdEDBtzCiD-3" target="VFUHbm7c49YdEDBtzCiD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="530" as="sourcePoint" />
+            <mxPoint x="830" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="VFUHbm7c49YdEDBtzCiD-4" target="VFUHbm7c49YdEDBtzCiD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="340" as="sourcePoint" />
+            <mxPoint x="790" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="VFUHbm7c49YdEDBtzCiD-5" target="VFUHbm7c49YdEDBtzCiD-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="340" as="sourcePoint" />
+            <mxPoint x="790" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-10" value="Raft事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="410" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-11" value="Serf事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="410" y="265" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-12" value="任务事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="410" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-13" value="执行事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="410" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-14" value="Serf事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="410" y="485" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-15" value="GRPC事件流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-16" value="GRPC事件流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-17" value="WebSocket实时推送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="940" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-18" value="事件处理与状态聚合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="780" y="310" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFUHbm7c49YdEDBtzCiD-19" value="集群状态可视化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="320" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
