@@ -1,9 +1,300 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="Cr-txBN3S6SdyiGqwNR8">
-    <mxGraphModel>
+    <mxGraphModel dx="436" dy="510" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-33" value="Leader节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="567" y="347" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-33">
+          <mxGeometry x="45" y="70" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-35" value="Follower节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="747" y="347" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-35">
+          <mxGeometry x="45" y="70" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-37" value="代理节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="917" y="347" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-37">
+          <mxGeometry x="45" y="70" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-39" value="新的Leader节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1087" y="347" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-39">
+          <mxGeometry x="45" y="70" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-41" value="心跳（AppendEntries RPC）" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-34" target="ulAN-NUVDgdVOlcWsPgG-36">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="717" y="437" as="sourcePoint" />
+            <mxPoint x="797" y="437" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="687" y="437" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-42" value="任务分发" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="622" y="467" as="sourcePoint" />
+            <mxPoint x="962" y="467" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="612" y="497" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-44" value="领导者节点故障" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" target="ulAN-NUVDgdVOlcWsPgG-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="617" y="477" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="647" y="477" />
+              <mxPoint x="647" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="792" y="537" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-46" value="选举超时检测" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" target="ulAN-NUVDgdVOlcWsPgG-45">
+          <mxGeometry x="0.0667" relative="1" as="geometry">
+            <mxPoint x="797" y="517" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="827" y="517" />
+              <mxPoint x="827" y="547" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-47" value="发起选举（RequestVote RPC）" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="797" y="597" as="sourcePoint" />
+            <mxPoint x="1132" y="597" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-48" value="投票响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1132" y="627" as="sourcePoint" />
+            <mxPoint x="797" y="627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1132" y="647" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-50" value="成为新Leader" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=14;" edge="1" parent="1" target="ulAN-NUVDgdVOlcWsPgG-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1137" y="627" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1167" y="627" />
+              <mxPoint x="1167" y="657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-51" value="心跳（AppendEntries RPC）" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1132" y="707" as="sourcePoint" />
+            <mxPoint x="797" y="707" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-52" value="恢复领导者节点" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="617" y="737" as="sourcePoint" />
+            <mxPoint x="617" y="767" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="567" y="737" />
+              <mxPoint x="567" y="767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-53" value="Serf检测到节点恢复" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1132" y="767" as="sourcePoint" />
+            <mxPoint x="622" y="767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-54" value="日志同步（AppendEntries RPC）" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1132" y="797" as="sourcePoint" />
+            <mxPoint x="622" y="797" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-55" value="系统正常运行" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1132" y="827" as="sourcePoint" />
+            <mxPoint x="962" y="827" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-56" value="X" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#FF0000;fontColor=#FF0000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="612" y="557" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-57" value="收到新领导者的心跳&lt;div&gt;转换为追随者&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fontSize=14;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="0.0557" y="-26" width="80" relative="1" as="geometry">
+            <mxPoint x="617" y="798" as="sourcePoint" />
+            <mxPoint x="617" y="828" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="557" y="828" />
+              <mxPoint x="567" y="828" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-79" value="Leader节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="541" y="1283" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-79">
+          <mxGeometry x="45" y="80" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-79">
+          <mxGeometry x="45" y="230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-82" value="故障发生" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#b85450;" edge="1" parent="ulAN-NUVDgdVOlcWsPgG-79" target="ulAN-NUVDgdVOlcWsPgG-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="210" />
+              <mxPoint x="80" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-83" value="Follower节点A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="701" y="1283" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-83">
+          <mxGeometry x="45" y="80" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-85" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-83">
+          <mxGeometry x="45" y="260" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-108" value="Raft选举开始" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-83">
+          <mxGeometry x="-45" y="242" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-86" value="Follower节点B" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="861" y="1283" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-86">
+          <mxGeometry x="45" y="80" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-86">
+          <mxGeometry x="45" y="260" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-89" value="Agent节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="1283" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ulAN-NUVDgdVOlcWsPgG-89">
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-91" value="心跳消息 (AppendEntries RPC)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-80" target="ulAN-NUVDgdVOlcWsPgG-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="671" y="1363" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-92" value="确认响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.3;rounded=0;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-84" target="ulAN-NUVDgdVOlcWsPgG-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="671" y="1439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-93" value="心跳消息 (AppendEntries RPC)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-80" target="ulAN-NUVDgdVOlcWsPgG-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="831" y="1363" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-94" value="确认响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.3;rounded=0;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-87" target="ulAN-NUVDgdVOlcWsPgG-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="831" y="1439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-95" value="任务执行指令" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.2;rounded=0;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-80" target="ulAN-NUVDgdVOlcWsPgG-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="991" y="1393" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-96" value="执行确认" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.4;rounded=0;" edge="1" parent="1" source="ulAN-NUVDgdVOlcWsPgG-90" target="ulAN-NUVDgdVOlcWsPgG-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="991" y="1469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-97" value="选举超时" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="746" y="1483" as="sourcePoint" />
+            <mxPoint x="746" y="1503" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="776" y="1483" />
+              <mxPoint x="776" y="1503" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-98" value="选举超时" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="906" y="1483" as="sourcePoint" />
+            <mxPoint x="906" y="1503" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="936" y="1483" />
+              <mxPoint x="936" y="1503" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-99" value="请求投票 (RequestVote RPC)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="756" y="1523" as="sourcePoint" />
+            <mxPoint x="906" y="1523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-100" value="投票响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="756" y="1553" as="targetPoint" />
+            <mxPoint x="906" y="1553" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="746" y="1583" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-102" value="成为新Leader" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1" target="ulAN-NUVDgdVOlcWsPgG-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="751" y="1563" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="781" y="1563" />
+              <mxPoint x="781" y="1583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-103" value="心跳消息 (AppendEntries RPC)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="756" y="1613" as="sourcePoint" />
+            <mxPoint x="906" y="1613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-104" value="确认响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="756" y="1643" as="targetPoint" />
+            <mxPoint x="906" y="1643" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-105" value="任务执行指令" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="756" y="1673" as="sourcePoint" />
+            <mxPoint x="1066" y="1673" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-106" value="执行确认" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="756" y="1703" as="targetPoint" />
+            <mxPoint x="1066" y="1703" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-107" value="旧Leader故障" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="451" y="1453" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-109" value="系统服务恢复" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="781" y="1673" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-110" value="故障前正常运行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="691" y="1333" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ulAN-NUVDgdVOlcWsPgG-111" value="Serf检测到节点故障" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="601" y="1493" width="130" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
