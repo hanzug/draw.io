@@ -1,41 +1,41 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Raft Leader选举状态机流程图" id="LkDxuzX8ql3CEM-Iv__S">
-    <mxGraphModel dx="1128" dy="-1285" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1520" dy="-1073" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-105" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;追随者&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- 响应领导者和候选人的RPC&lt;br&gt;- 维护选举超时计时器&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=15;fontFamily=Helvetica;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="108" y="2344" width="240" height="87" as="geometry" />
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-105" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;追随者&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- 响应领导者和候选人的RPC&lt;br&gt;- 维护选举超时计时器&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="54" y="2343" width="240" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-106" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;候选人&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- 增加任期并投票给自己&lt;br&gt;- 向所有节点发送RequestVote&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=15;fontFamily=Helvetica;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="488" y="2344" width="240" height="90" as="geometry" />
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-106" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;候选人&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- 增加任期并投票给自己&lt;br&gt;- 向所有节点发送RequestVote&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="488" y="2344" width="240" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-107" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;领导者&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- 周期性发送心跳(AppendEntries)&lt;br&gt;- 处理客户端请求&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=15;fontFamily=Helvetica;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="868" y="2344" width="240" height="90" as="geometry" />
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-107" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;领导者&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- 周期性发送心跳(AppendEntries)&lt;br&gt;- 处理客户端请求&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="891" y="2342" width="240" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=15;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-105" target="Wd-uXgH5f4dMM6CjHKqw-106" edge="1">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=18;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-105" target="Wd-uXgH5f4dMM6CjHKqw-106" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="558" y="2604" as="sourcePoint" />
             <mxPoint x="608" y="2554" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-109" value="选举超时&lt;br&gt;(未收到领导者心跳)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-108" vertex="1" connectable="0">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-109" value="选举超时&lt;br&gt;(未收到领导者心跳)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-108" vertex="1" connectable="0">
           <mxGeometry x="-0.0182" y="2" relative="1" as="geometry">
             <mxPoint x="5" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=15;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-106" target="Wd-uXgH5f4dMM6CjHKqw-107" edge="1">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=18;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-106" target="Wd-uXgH5f4dMM6CjHKqw-107" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="558" y="2604" as="sourcePoint" />
             <mxPoint x="608" y="2554" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-111" value="获得多数选票&#xa;(过半节点投票)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-110" vertex="1" connectable="0">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-111" value="获得多数选票&#xa;(过半节点投票)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-110" vertex="1" connectable="0">
           <mxGeometry x="-0.0571" y="2" relative="1" as="geometry">
             <mxPoint x="5" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-112" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=15;" parent="1" edge="1">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-112" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=18;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="980.9999999999995" y="2424.0000000000005" as="sourcePoint" />
             <mxPoint x="281" y="2424.0000000000005" as="targetPoint" />
@@ -45,27 +45,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-113" value="发现更高任期号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-112" vertex="1" connectable="0">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-113" value="发现更高任期号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-112" vertex="1" connectable="0">
           <mxGeometry x="0.0702" y="-3" relative="1" as="geometry">
             <mxPoint x="44" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-114" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=15;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-106" target="Wd-uXgH5f4dMM6CjHKqw-105" edge="1">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-114" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=18;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="558" y="2604" as="sourcePoint" />
-            <mxPoint x="608" y="2554" as="targetPoint" />
+            <mxPoint x="609" y="2457" as="sourcePoint" />
+            <mxPoint x="175" y="2461" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="608" y="2474" />
-              <mxPoint x="228" y="2474" />
+              <mxPoint x="609" y="2496" />
+              <mxPoint x="175" y="2496" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-115" value="收到合法领导者心跳&lt;br&gt;或发现更高任期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-114" vertex="1" connectable="0">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-115" value="收到合法领导者心跳&lt;br&gt;或发现更高任期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-114" vertex="1" connectable="0">
           <mxGeometry x="0.1232" y="-1" relative="1" as="geometry">
-            <mxPoint x="72" y="12" as="offset" />
+            <mxPoint x="91" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-116" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=15;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-106" target="Wd-uXgH5f4dMM6CjHKqw-106" edge="1">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-116" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=18;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-106" target="Wd-uXgH5f4dMM6CjHKqw-106" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="558" y="2604" as="sourcePoint" />
             <mxPoint x="608" y="2554" as="targetPoint" />
@@ -75,12 +75,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-117" value="选举超时&#xa;(重新开始选举)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-116" vertex="1" connectable="0">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-117" value="选举超时&#xa;(重新开始选举)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-116" vertex="1" connectable="0">
           <mxGeometry x="-0.0114" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-118" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=15;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-105" target="Wd-uXgH5f4dMM6CjHKqw-105" edge="1">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-118" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=18;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-105" target="Wd-uXgH5f4dMM6CjHKqw-105" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="558" y="2604" as="sourcePoint" />
             <mxPoint x="608" y="2554" as="targetPoint" />
@@ -90,30 +90,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-119" value="收到领导者心跳&lt;br&gt;(重置选举超时)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-118" vertex="1" connectable="0">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-119" value="收到领导者心跳&lt;br&gt;(重置选举超时)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-118" vertex="1" connectable="0">
           <mxGeometry x="0.0286" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-124" value="&lt;ul&gt;&lt;li&gt;每个任期最多只有一个领导者&lt;/li&gt;&lt;li&gt;节点在一个任期内只能投票给一个候选人&lt;/li&gt;&lt;li&gt;日志至少与投票者一样新的候选人才能获得投票&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="108" y="2578" width="800" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-125" value="&lt;b&gt;关键安全性规则:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="108" y="2554" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-126" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=15;" parent="1" source="Wd-uXgH5f4dMM6CjHKqw-107" target="Wd-uXgH5f4dMM6CjHKqw-107" edge="1">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-126" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;fontSize=18;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="928" y="2314" as="sourcePoint" />
-            <mxPoint x="988" y="2314" as="targetPoint" />
+            <mxPoint x="950.96" y="2342" as="sourcePoint" />
+            <mxPoint x="1070.96" y="2342" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="928" y="2294" />
-              <mxPoint x="1048" y="2294" />
+              <mxPoint x="950.96" y="2300" />
+              <mxPoint x="962.96" y="2300" />
+              <mxPoint x="962.96" y="2294" />
+              <mxPoint x="1070.96" y="2294" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-127" value="定期发送心跳&#xa;维持领导地位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-126" vertex="1" connectable="0">
+        <mxCell id="Wd-uXgH5f4dMM6CjHKqw-127" value="定期发送心跳&#xa;维持领导地位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1;labelBackgroundColor=#FFFFFF;" parent="Wd-uXgH5f4dMM6CjHKqw-126" vertex="1" connectable="0">
           <mxGeometry x="0.0286" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
