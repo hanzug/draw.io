@@ -59,7 +59,7 @@
           <mxGeometry x="690" y="310" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VFUHbm7c49YdEDBtzCiD-16" value="GRPC事件流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="440" width="90" height="30" as="geometry" />
+          <mxGeometry x="710" y="485" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VFUHbm7c49YdEDBtzCiD-17" value="WebSocket实时推送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="940" y="320" width="120" height="30" as="geometry" />
