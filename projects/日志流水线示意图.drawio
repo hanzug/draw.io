@@ -1,9 +1,162 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
-  <diagram name="第 1 页" id="cEwv6QGE_8RR6pSS1JHF">
-    <mxGraphModel>
+  <diagram name="Log Pipelining" id="cEwv6QGE_8RR6pSS1JHF">
+    <mxGraphModel dx="567" dy="613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-1" value="领导者节点 (Leader)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="579" y="194" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-2" value="追随者节点 1 (Follower)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="979" y="154" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-3" value="追随者节点 2 (Follower)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="979" y="234" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-4" value="追随者节点 3 (Follower)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="979" y="314" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="474" as="sourcePoint" />
+            <mxPoint x="639" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="474" as="sourcePoint" />
+            <mxPoint x="1059" y="214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="474" as="sourcePoint" />
+            <mxPoint x="1059" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="474" as="sourcePoint" />
+            <mxPoint x="1059" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-9" value="AppendEntries RPC 1" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="294" as="sourcePoint" />
+            <mxPoint x="1059" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-10" value="AppendEntries RPC 2" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="314" as="sourcePoint" />
+            <mxPoint x="1059" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-11" value="AppendEntries RPC 3" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="334" as="sourcePoint" />
+            <mxPoint x="1059" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-12" value="Response 1" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="354" as="sourcePoint" />
+            <mxPoint x="639" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-13" value="Response 2" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="374" as="sourcePoint" />
+            <mxPoint x="639" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-14" value="Response 3" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="394" as="sourcePoint" />
+            <mxPoint x="639" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-15" value="&lt;b&gt;传统方式&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="579" y="494" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="674" as="sourcePoint" />
+            <mxPoint x="639" y="524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="674" as="sourcePoint" />
+            <mxPoint x="1059" y="524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-18" value="AppendEntries RPC 1" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="554" as="sourcePoint" />
+            <mxPoint x="1059" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-19" value="Response 1" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="574" as="sourcePoint" />
+            <mxPoint x="639" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-20" value="AppendEntries RPC 2" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="594" as="sourcePoint" />
+            <mxPoint x="1059" y="594" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-21" value="Response 2" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="614" as="sourcePoint" />
+            <mxPoint x="639" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-22" value="AppendEntries RPC 3" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639" y="634" as="sourcePoint" />
+            <mxPoint x="1059" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-23" value="Response 3" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1059" y="654" as="sourcePoint" />
+            <mxPoint x="639" y="654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-24" value="&lt;b&gt;日志流水线方式&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="579" y="264" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-25" value="&lt;b&gt;追随者节点&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="999" y="494" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-26" value="&lt;h2&gt;日志流水线（Log Pipelining）优化&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="719" y="114" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-27" value="异步追踪复制进度" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="459" y="314" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-28" value="按顺序处理请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="354" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-29" value="等待响应后再发送下一请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="459" y="584" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-30" value="处理单个请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="584" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-31" value="节约时间" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="849" y="324" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-32" value="&lt;b&gt;时间节约&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="829" y="409" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tI9Yq3BKOj91rwqoLNJe-33" value="&lt;div align=&quot;left&quot;&gt;1. 不等待前一个RPC响应即可发送后续请求&lt;br&gt;2. 并行处理多个网络传输&lt;br&gt;3. 追随者按顺序处理请求并回复&lt;br&gt;4. 领导者异步跟踪每个追随者复制进度&lt;br&gt;5. 显著提高高延迟网络下的复制效率&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="459" y="714" width="720" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
