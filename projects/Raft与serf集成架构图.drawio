@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="eZDlI3yYEI7RTag95_xD">
-    <mxGraphModel dx="245" dy="238" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="486" dy="385" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aUhSs1tsLXUovGEMrSzu-328" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="aUhSs1tsLXUovGEMrSzu-328" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=18;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1281" y="647" width="210" height="273" as="geometry" />
         </mxCell>
         <mxCell id="aUhSs1tsLXUovGEMrSzu-330" value="Serf模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;" vertex="1" parent="aUhSs1tsLXUovGEMrSzu-328">
@@ -16,10 +16,10 @@
         <mxCell id="aUhSs1tsLXUovGEMrSzu-337" value="2. 如果是服务器节点&lt;div&gt;通知Raft模块&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#4A86E8;strokeWidth=1.5;fontSize=18;" edge="1" parent="aUhSs1tsLXUovGEMrSzu-328" source="aUhSs1tsLXUovGEMrSzu-330" target="aUhSs1tsLXUovGEMrSzu-329">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aUhSs1tsLXUovGEMrSzu-331" value="Raft集群 (Peers)" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;dashed=1;" vertex="1" parent="1">
+        <mxCell id="aUhSs1tsLXUovGEMrSzu-331" value="Raft集群 (Peers)&lt;div&gt;以及其维护的信息&lt;/div&gt;" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="912" y="889" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="aUhSs1tsLXUovGEMrSzu-332" value="Serf集群 (Gossip)" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;dashed=1;" vertex="1" parent="1">
+        <mxCell id="aUhSs1tsLXUovGEMrSzu-332" value="Serf集群 (Gossip)&lt;div&gt;以及其维护的信息&lt;/div&gt;" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="917" y="659" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="aUhSs1tsLXUovGEMrSzu-333" value="服务器节点&lt;br&gt;(新加入/离开)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=18;" vertex="1" parent="1">
@@ -55,6 +55,12 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aUhSs1tsLXUovGEMrSzu-343" value="弱一致性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="863" y="650" width="98" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="aUhSs1tsLXUovGEMrSzu-344" value="强一致性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="857" y="873" width="98" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
