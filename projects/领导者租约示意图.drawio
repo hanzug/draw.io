@@ -16,6 +16,15 @@
         <mxCell id="RpkAgLOPzhrfQ40RdnY4-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="RpkAgLOPzhrfQ40RdnY4-49">
           <mxGeometry x="45" y="90" width="10" height="400" as="geometry" />
         </mxCell>
+        <mxCell id="RpkAgLOPzhrfQ40RdnY4-61" value="2. 成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="RpkAgLOPzhrfQ40RdnY4-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="109.68000000000029" as="sourcePoint" />
+            <mxPoint x="50.35483870967755" y="109.68000000000029" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120.5" y="109.68000000000006" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RpkAgLOPzhrfQ40RdnY4-51" value="追随者 1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1070" y="1140" width="100" height="520" as="geometry" />
         </mxCell>
@@ -58,22 +67,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RpkAgLOPzhrfQ40RdnY4-61" value="2. 成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" source="RpkAgLOPzhrfQ40RdnY4-51" target="RpkAgLOPzhrfQ40RdnY4-49">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="1260" as="sourcePoint" />
-            <mxPoint x="970" y="1260" as="targetPoint" />
+        <mxCell id="RpkAgLOPzhrfQ40RdnY4-62" value="2. 成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1">
+          <mxGeometry x="-0.438" relative="1" as="geometry">
+            <mxPoint x="1279.82" y="1260.0000000000002" as="sourcePoint" />
+            <mxPoint x="960.1748387096776" y="1260.0000000000002" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1030" y="1260" />
+              <mxPoint x="1080.32" y="1260" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RpkAgLOPzhrfQ40RdnY4-62" value="2. 成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" source="RpkAgLOPzhrfQ40RdnY4-55" target="RpkAgLOPzhrfQ40RdnY4-49">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="1260" as="sourcePoint" />
-            <mxPoint x="970" y="1260" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1080" y="1260" />
-            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RpkAgLOPzhrfQ40RdnY4-63" value="获得多数派确认后,&#xa;领导者获取租约" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -105,12 +106,13 @@
           <mxGeometry x="810" y="1310" width="140" height="35" as="geometry" />
         </mxCell>
         <mxCell id="RpkAgLOPzhrfQ40RdnY4-69" value="4. 直接响应(无需共识)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" source="RpkAgLOPzhrfQ40RdnY4-49" target="RpkAgLOPzhrfQ40RdnY4-48">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.003" y="20" relative="1" as="geometry">
             <mxPoint x="860" y="1330" as="sourcePoint" />
             <mxPoint x="780" y="1330" as="targetPoint" />
             <Array as="points">
               <mxPoint x="830" y="1340" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RpkAgLOPzhrfQ40RdnY4-70" value="5. AppendEntries RPC (心跳,续租)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" edge="1" parent="1" source="RpkAgLOPzhrfQ40RdnY4-49" target="RpkAgLOPzhrfQ40RdnY4-51">
@@ -131,21 +133,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RpkAgLOPzhrfQ40RdnY4-72" value="6. 成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" source="RpkAgLOPzhrfQ40RdnY4-51" target="RpkAgLOPzhrfQ40RdnY4-49">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="1400" as="sourcePoint" />
-            <mxPoint x="970" y="1400" as="targetPoint" />
+        <mxCell id="RpkAgLOPzhrfQ40RdnY4-72" value="6. 成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1">
+          <mxGeometry x="0.0014" relative="1" as="geometry">
+            <mxPoint x="1120" y="1389.9999999999998" as="sourcePoint" />
+            <mxPoint x="960.2307692307693" y="1389.9999999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1030" y="1400" />
+              <mxPoint x="1030.5" y="1390" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RpkAgLOPzhrfQ40RdnY4-73" value="6. 成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1" source="RpkAgLOPzhrfQ40RdnY4-55" target="RpkAgLOPzhrfQ40RdnY4-49">
+        <mxCell id="RpkAgLOPzhrfQ40RdnY4-73" value="6. 成功响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=11;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="1400" as="sourcePoint" />
-            <mxPoint x="970" y="1400" as="targetPoint" />
+            <mxPoint x="1279.88" y="1399.62" as="sourcePoint" />
+            <mxPoint x="960.1107692307693" y="1399.62" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1080" y="1400" />
+              <mxPoint x="1080.38" y="1399.6200000000001" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -167,12 +170,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RpkAgLOPzhrfQ40RdnY4-78" value="7. AppendEntries RPC失败" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" edge="1" parent="1" source="RpkAgLOPzhrfQ40RdnY4-49" target="RpkAgLOPzhrfQ40RdnY4-55">
+        <mxCell id="RpkAgLOPzhrfQ40RdnY4-78" value="7. AppendEntries RPC失败" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=11;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="970" y="1490" as="sourcePoint" />
-            <mxPoint x="1050" y="1490" as="targetPoint" />
+            <mxPoint x="960.2294594594596" y="1509.46" as="sourcePoint" />
+            <mxPoint x="1279.77" y="1509.46" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1080" y="1480" />
+              <mxPoint x="1080.27" y="1509.46" />
             </Array>
           </mxGeometry>
         </mxCell>
