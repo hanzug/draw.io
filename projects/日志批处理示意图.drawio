@@ -53,7 +53,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XTDZx26cBL84-N1Y96lm-46" value="AppendEntries RPC&lt;br&gt;(单次网络调用包含多个条目)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="845" y="785" width="221" height="50" as="geometry" />
+          <mxGeometry x="847" y="776" width="221" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XTDZx26cBL84-N1Y96lm-47" value="AppendEntries请求" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="859" y="848" width="190" height="180" as="geometry" />
