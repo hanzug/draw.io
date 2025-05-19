@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Raft日志复制流程" id="MbLu8VsG8NwB8TJeEzHW">
-    <mxGraphModel dx="1920" dy="927" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1520" dy="927" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,7 +126,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hLT218sP9Vwt2zcqdg2f-144" value="&lt;b&gt;&lt;font&gt;Raft日志复制关键特点&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. &lt;b&gt;强一致性保证&lt;/b&gt;：只有已提交的日志才会应用到状态机&lt;br&gt;&lt;br&gt;2. &lt;b&gt;安全性：&lt;/b&gt;当前任期Leader只提交当前任期日志，防止覆盖已提交日志&lt;br&gt;&lt;br&gt;3. &lt;b&gt;一致性检查：&lt;/b&gt;通过prevLogIndex和prevLogTerm确保日志一致性&lt;br&gt;&lt;br&gt;4. &lt;b&gt;多数派原则：&lt;/b&gt;只有多数节点(N/2+1)确认才提交日志" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;spacingLeft=10;spacingRight=10;shadow=1;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="-103" y="200" width="218" height="370" as="geometry" />
+          <mxGeometry x="130" y="681" width="664" height="220" as="geometry" />
         </mxCell>
         <mxCell id="hLT218sP9Vwt2zcqdg2f-145" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;fontSize=17;" parent="1" source="hLT218sP9Vwt2zcqdg2f-131" target="hLT218sP9Vwt2zcqdg2f-117" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
