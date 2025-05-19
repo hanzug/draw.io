@@ -198,9 +198,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RpkAgLOPzhrfQ40RdnY4-82" value="领导者租约机制解释：&#xa;1. 领导者通过向多数派发送心跳并获得确认来获取租约&#xa;2. 在租约有效期内，领导者可以直接响应读请求，无需再次共识，提高读性能&#xa;3. 领导者通过定期心跳维持和续期租约&#xa;4. 如果租约到期（如网络分区导致无法获得多数派确认），领导者必须拒绝读请求或降级处理" style="shape=note;whiteSpace=wrap;html=1;size=15;verticalAlign=top;align=left;spacingTop=-6;fontSize=11;fillColor=#eeeeee;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="730" y="1670" width="600" height="80" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
