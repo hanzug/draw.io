@@ -1,122 +1,119 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
-  <diagram name="Log Batching" id="7gdLqKNWt9u7bEjB4eD2">
-    <mxGraphModel dx="396" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="日志批处理" id="7gdLqKNWt9u7bEjB4eD2">
+    <mxGraphModel dx="728" dy="315" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XTDZx26cBL84-N1Y96lm-1" value="Leader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="490" y="125" width="120" height="60" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-33" value="领导者" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="679" y="688" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-2" value="Follower" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="930" y="125" width="120" height="60" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-34" value="追随者" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1119" y="688" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-1">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="525" as="sourcePoint" />
-            <mxPoint x="860" y="325" as="targetPoint" />
+            <mxPoint x="739" y="1088" as="sourcePoint" />
+            <mxPoint x="1049" y="888" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-2">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="990" y="525" as="sourcePoint" />
-            <mxPoint x="860" y="325" as="targetPoint" />
+            <mxPoint x="1179" y="1088" as="sourcePoint" />
+            <mxPoint x="1049" y="888" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-5" value="Log Entry 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="205" width="80" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-37" value="日志条目 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="699" y="768" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-6" value="Log Entry 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="245" width="80" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-38" value="日志条目 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="699" y="808" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-7" value="Log Entry 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="285" width="80" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-39" value="日志条目 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="699" y="848" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="195" width="100" height="130" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="689" y="758" width="100" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-9" value="Log Entry 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="205" width="80" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-41" value="日志条目 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="699" y="768" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-10" value="Log Entry 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="245" width="80" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-42" value="日志条目 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="699" y="808" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-11" value="Log Entry 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="285" width="80" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-43" value="日志条目 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="699" y="848" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-12" value="Batch of logs&lt;br&gt;(MaxAppendEntries = 3)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="335" width="160" height="40" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-44" value="日志批次&lt;br&gt;(MaxAppendEntries = 3)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="646" y="895" width="191" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-45" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="265" as="sourcePoint" />
-            <mxPoint x="910" y="265" as="targetPoint" />
+            <mxPoint x="809" y="828" as="sourcePoint" />
+            <mxPoint x="1099" y="828" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-14" value="AppendEntries RPC&lt;br&gt;(Single network call with multiple entries)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="645" y="225" width="240" height="40" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-46" value="AppendEntries RPC&lt;br&gt;(单次网络调用包含多个条目)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="845" y="785" width="221" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-15" value="AppendEntriesRequest" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="670" y="285" width="190" height="180" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-47" value="AppendEntries请求" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="859" y="848" width="190" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-16" value="Term: uint64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XTDZx26cBL84-N1Y96lm-15">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-48" value="任期号: uint64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XTDZx26cBL84-N1Y96lm-47">
           <mxGeometry y="30" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-17" value="LeaderID: []byte" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XTDZx26cBL84-N1Y96lm-15">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-49" value="领导者ID: []byte" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XTDZx26cBL84-N1Y96lm-47">
           <mxGeometry y="60" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-18" value="PrevLogEntry: uint64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XTDZx26cBL84-N1Y96lm-15">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-50" value="前一日志索引: uint64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XTDZx26cBL84-N1Y96lm-47">
           <mxGeometry y="90" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-19" value="PrevLogTerm: uint64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XTDZx26cBL84-N1Y96lm-15">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-51" value="前一日志任期: uint64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="XTDZx26cBL84-N1Y96lm-47">
           <mxGeometry y="120" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-20" value="Entries: []*Log" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="XTDZx26cBL84-N1Y96lm-15">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-52" value="日志条目: []*Log" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" vertex="1" parent="XTDZx26cBL84-N1Y96lm-47">
           <mxGeometry y="150" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-21" value="Log Entry 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="950" y="345" width="80" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-53" value="日志条目 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1139" y="908" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-22" value="Log Entry 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="950" y="385" width="80" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-54" value="日志条目 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1139" y="948" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-23" value="Log Entry 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="950" y="425" width="80" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-55" value="日志条目 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1139" y="988" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-21">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=16;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-53">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="860" y="360" as="sourcePoint" />
-            <mxPoint x="910" y="325" as="targetPoint" />
+            <mxPoint x="1049" y="923" as="sourcePoint" />
+            <mxPoint x="1099" y="888" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-22">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=16;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="860" y="400" as="sourcePoint" />
-            <mxPoint x="910" y="325" as="targetPoint" />
+            <mxPoint x="1049" y="963" as="sourcePoint" />
+            <mxPoint x="1099" y="888" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-23">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=16;" edge="1" parent="1" target="XTDZx26cBL84-N1Y96lm-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="860" y="440" as="sourcePoint" />
-            <mxPoint x="910" y="325" as="targetPoint" />
+            <mxPoint x="1049" y="1003" as="sourcePoint" />
+            <mxPoint x="1099" y="888" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-27" value="Process log entries in order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="920" y="465" width="160" height="30" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-59" value="按顺序处理日志条目" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1091" y="1030" width="162" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-28" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+        <mxCell id="XTDZx26cBL84-N1Y96lm-60" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="910" y="495" as="sourcePoint" />
-            <mxPoint x="630" y="495" as="targetPoint" />
+            <mxPoint x="1099" y="1058" as="sourcePoint" />
+            <mxPoint x="819" y="1058" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-29" value="AppendEntriesResponse&lt;br&gt;(Success = true)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="695" y="465" width="160" height="40" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-61" value="AppendEntries响应&lt;br&gt;(成功 = true)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="873" y="1025" width="155" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-30" value="&lt;b&gt;setupAppendEntries()&lt;/b&gt;&lt;br&gt;Adds up to MaxAppendEntries&lt;br&gt;(defaults to 64) log entries" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="465" y="165" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XTDZx26cBL84-N1Y96lm-31" value="Benefits:&lt;br&gt;- Reduced network overhead&lt;br&gt;- Higher throughput&lt;br&gt;- Better disk I/O batching" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=5;" vertex="1" parent="1">
-          <mxGeometry x="900" y="185" width="180" height="70" as="geometry" />
+        <mxCell id="XTDZx26cBL84-N1Y96lm-63" value="优势:&lt;br&gt;- 减少网络开销&lt;br&gt;- 提高吞吐量&lt;br&gt;- 改善磁盘I/O批处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;spacingLeft=5;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1089" y="748" width="180" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
