@@ -55,9 +55,9 @@
           <mxGeometry x="1058" y="320" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JbWtqRf3kxGyFEB7wyME-21" value="������️ 前端UI&#xa;可视化界面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=19;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1058" y="162" width="160" height="60" as="geometry" />
+          <mxGeometry x="1058" y="164" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JbWtqRf3kxGyFEB7wyME-27" value="WebSocket&#xa;实时推送" style="endArrow=classic;html=1;rounded=0;strokeColor=#e91e63;strokeWidth=3;fontSize=19;fontColor=#000000;" edge="1" parent="1" source="JbWtqRf3kxGyFEB7wyME-20" target="JbWtqRf3kxGyFEB7wyME-21">
+        <mxCell id="JbWtqRf3kxGyFEB7wyME-27" value="WebSocket&#xa;实时推送" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;fontSize=19;fontColor=#000000;" edge="1" parent="1" source="JbWtqRf3kxGyFEB7wyME-20" target="JbWtqRf3kxGyFEB7wyME-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="926" y="570" as="sourcePoint" />
             <mxPoint x="926" y="650" as="targetPoint" />
