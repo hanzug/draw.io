@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="第 1 页" id="1FyKUF50gnVKBm6TfoI5">
-    <mxGraphModel dx="989" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3768" dy="2472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,9 +96,6 @@
         </mxCell>
         <mxCell id="yjoiWp7i4O6Tfu99-DzN-72" value="✅ 数据一致" style="text;html=1;strokeColor=#4caf50;fillColor=#e8f5e8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=21;fontColor=#000000;fontStyle=1;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="1317" y="666" width="129" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="yjoiWp7i4O6Tfu99-DzN-75" value="" style="fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1309" y="1132" width="1541" height="493" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
