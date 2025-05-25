@@ -97,9 +97,6 @@
         <mxCell id="43eRnRHQWtjMXYkNsd6h-26" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#ff9800;strokeWidth=1;opacity=15;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="534" y="265" width="240" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="43eRnRHQWtjMXYkNsd6h-27" value="信息像涟漪一样逐层扩散，实现去中心化传播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#4caf50;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="887" y="282" width="172" height="163" as="geometry" />
-        </mxCell>
         <mxCell id="43eRnRHQWtjMXYkNsd6h-73" value="&lt;span style=&quot;font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;������ Gossip传播机制&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;labelBackgroundColor=default;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="576.4970588235295" y="224.99823529411768" width="155" height="39" as="geometry" />
         </mxCell>
