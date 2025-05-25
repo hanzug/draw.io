@@ -10,12 +10,6 @@
         <mxCell id="yjoiWp7i4O6Tfu99-DzN-42" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#4caf50;strokeWidth=2;fontSize=21;fontColor=#000000;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="1163" y="456" width="300" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="yjoiWp7i4O6Tfu99-DzN-43" value="传统中心化模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#000000;opacity=40;" vertex="1" parent="1">
-          <mxGeometry x="713" y="426" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yjoiWp7i4O6Tfu99-DzN-44" value="分布式模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#000000;opacity=40;" vertex="1" parent="1">
-          <mxGeometry x="1163" y="426" width="300" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="yjoiWp7i4O6Tfu99-DzN-45" value="VS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ff9800;strokeColor=#f57c00;fontSize=21;fontStyle=1;fontColor=#000000;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="1063" y="556" width="60" height="40" as="geometry" />
         </mxCell>
