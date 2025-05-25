@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_9xu32ctyVO_csBJsuUP-177" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;opacity=25;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1342" y="1063" width="336" height="181" as="geometry" />
+          <mxGeometry x="1342" y="1063" width="336" height="229" as="geometry" />
         </mxCell>
         <mxCell id="_9xu32ctyVO_csBJsuUP-126" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#4caf50;strokeWidth=2;opacity=25;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1344" y="969" width="332" height="89" as="geometry" />
@@ -20,10 +20,10 @@
           <mxGeometry x="1480" y="1066" width="78" height="72" as="geometry" />
         </mxCell>
         <mxCell id="_9xu32ctyVO_csBJsuUP-135" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;不做处理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d6a7;strokeColor=#66bb6a;fontSize=14;fontColor=#000000;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1393" y="1158" width="92" height="59" as="geometry" />
+          <mxGeometry x="1385" y="1198" width="92" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="_9xu32ctyVO_csBJsuUP-136" value="&lt;b&gt;Raft集群共识&lt;/b&gt;&lt;div&gt;&lt;b&gt;加入集群“大脑”&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#f44336;strokeWidth=1;opacity=50;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1549" y="1158" width="103" height="58" as="geometry" />
+        <mxCell id="_9xu32ctyVO_csBJsuUP-136" value="Raft集群共识&lt;div&gt;加入集群“大脑”&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#f44336;strokeWidth=1;opacity=50;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1558" y="1198" width="103" height="58" as="geometry" />
         </mxCell>
         <mxCell id="_9xu32ctyVO_csBJsuUP-140" value="加入集群" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="_9xu32ctyVO_csBJsuUP-128" target="_9xu32ctyVO_csBJsuUP-129">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -43,7 +43,7 @@
             <mxPoint x="1398" y="1163" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_9xu32ctyVO_csBJsuUP-143" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;服务器节点&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;fontSize=14;fontColor=#000000;fontStyle=1;" edge="1" parent="1" source="_9xu32ctyVO_csBJsuUP-134" target="_9xu32ctyVO_csBJsuUP-136">
+        <mxCell id="_9xu32ctyVO_csBJsuUP-143" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;服务器节点&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=2;fontSize=14;fontColor=#000000;fontStyle=1;" edge="1" parent="1" source="_9xu32ctyVO_csBJsuUP-134" target="_9xu32ctyVO_csBJsuUP-136">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1558" y="1103" as="sourcePoint" />
             <mxPoint x="1608" y="1143" as="targetPoint" />
