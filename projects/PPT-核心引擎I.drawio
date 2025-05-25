@@ -43,7 +43,7 @@
             <mxPoint x="666" y="371" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTS1WJpVHOgEogpVlqGH-14" value="多数投票选出Leader" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#1976d2;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="NTS1WJpVHOgEogpVlqGH-14" value="多数投票选出领导者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#1976d2;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="466" y="411" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NTS1WJpVHOgEogpVlqGH-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#4caf50;strokeWidth=2;opacity=25;fontSize=16;" vertex="1" parent="1">
@@ -108,7 +108,7 @@
             <mxPoint x="926" y="341" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTS1WJpVHOgEogpVlqGH-29" value="Leader发送日志，Follower确认" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#4caf50;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="NTS1WJpVHOgEogpVlqGH-29" value="领导者发送日志，追随者确认" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#4caf50;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="776" y="411" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NTS1WJpVHOgEogpVlqGH-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ff9800;strokeWidth=2;opacity=25;fontSize=16;" vertex="1" parent="1">
