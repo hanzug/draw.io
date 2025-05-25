@@ -1,12 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="系统测试与成果" id="irrgcWfUvLlHAQGJri0X">
-    <mxGraphModel dx="1389" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="431" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qFm8A1Xdh3b9_wU4S30p-4" value="������️ 测试环境架构" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1e40af;" vertex="1" parent="1">
-          <mxGeometry x="339" y="380" width="200" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="qFm8A1Xdh3b9_wU4S30p-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#6b7280;strokeWidth=2;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="339" y="420" width="451" height="186" as="geometry" />
         </mxCell>
