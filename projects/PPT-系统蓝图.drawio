@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="系统总体架构图" id="MkjeLayA3pyHfyFa2T3W">
-    <mxGraphModel dx="1158" dy="692" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
           <mxGeometry x="392" y="137" width="549" height="445" as="geometry" />
         </mxCell>
         <mxCell id="JbWtqRf3kxGyFEB7wyME-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;opacity=50;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="510" y="194" width="308" height="236" as="geometry" />
+          <mxGeometry x="518" y="185" width="308" height="236" as="geometry" />
         </mxCell>
         <mxCell id="JbWtqRf3kxGyFEB7wyME-4" value="������ 服务器节点集群 (Raft)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="498" y="194" width="320" height="30" as="geometry" />
@@ -78,14 +78,17 @@
         <mxCell id="JbWtqRf3kxGyFEB7wyME-47" value="• 基于标签的精准任务路由" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1287" y="849" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JbWtqRf3kxGyFEB7wyME-54" value="数据强一致性保障" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="535" y="240" width="101" height="59" as="geometry" />
-        </mxCell>
         <mxCell id="JbWtqRf3kxGyFEB7wyME-55" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#1976d2;strokeWidth=3;fontSize=19;fontColor=#000000;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JbWtqRf3kxGyFEB7wyME-5" target="JbWtqRf3kxGyFEB7wyME-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="636" y="450" as="sourcePoint" />
             <mxPoint x="692" y="453" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JbWtqRf3kxGyFEB7wyME-56" value="serf集群管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;labelBackgroundColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="389" y="336" width="126" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JbWtqRf3kxGyFEB7wyME-57" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;数据强一致性保障&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="530" y="248" width="146" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
